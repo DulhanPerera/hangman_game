@@ -60,6 +60,7 @@ def get_word(words):
     return word.upper()
 this piece of code used for getting a random word from the list that I created as a module file and this function used for getting a random word and return the whole word in to uppercase.
 # Function for run the main programme
+
 def hangman():
     word = get_word(words)
     word_letters = set(word)  # letters in the word
@@ -132,6 +133,7 @@ all_data = [user_name, win, lost, count]
 sub.insert.insertFunc(all_data)
 
   Showing past record data in the database
+  
 showData = str(input("\nDo you want to view past game records (Yes == 'y' or 'Y' and No == 'n' or 'N')? "))
 if showData == 'Y' or showData == 'y':
     print("\n")
@@ -139,7 +141,6 @@ if showData == 'Y' or showData == 'y':
     print("\nGame Finished.")
 else:
     print("Game Finished.")
+    
 This code part is used for inserting all data from the game to the database. And there’s an if else statement for show data if user wants or not.
-
-
 
